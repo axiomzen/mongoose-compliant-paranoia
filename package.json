@@ -1,7 +1,7 @@
 {
-  "name": "persomm-api",
-  "description": "PerSomm API",
-  "version": "0.0.2",
+  "name": "mongoose-compliant-paranoia",
+  "description": "A plugin to complay with Rails paranoia plugins so we dont query 'deleted' documents",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "mongoose": "3.6.x"

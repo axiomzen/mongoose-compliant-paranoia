@@ -6,7 +6,7 @@ antiParanoia = require '../lib'
 DB_URL = "mongodb://localhost/mongoose-aint-paranoia_dev"
 
 schema = new mongoose.Schema
-  name: String  
+  name: String
   x:
     type: Number
     default: Math.random
@@ -15,7 +15,7 @@ schema = new mongoose.Schema
     type: Date
     default: Date.now
 
-# schema.plugin( antiParanoia.plugin )
+schema.plugin( antiParanoia.plugin )
 
 conn = null
 model = null
