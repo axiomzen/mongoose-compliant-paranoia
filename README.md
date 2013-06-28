@@ -15,7 +15,7 @@ Inspiration from [https://github.com/Gottox/mongoose-cache]
 Put coffee to run with
 
 ```
-coffee -o lib/ coffee/
+coffee -w -b -o lib/ coffee/
 ```
 
 run tests with `npm test`
