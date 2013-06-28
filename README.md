@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/axiomzen/mongoose-compliant-paranoia.png?branch=master)](https://travis-ci.org/axiomzen/mongoose-compliant-paranoia)
 
-Prevent rails's active record **deleted_at** field from messing your queries by being aware of it.
+A super light and transparent way to prevent rails's active record **deleted_at** field from messing your queries from getting "deleted" documents by being aware of it.
 
 Meant to work with both mongoid and the active record plugin (#TODO link both)
 

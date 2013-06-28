@@ -1,7 +1,8 @@
 {
   "name": "mongoose-compliant-paranoia",
   "description": "A plugin to complay with Rails paranoia plugins so we dont query 'deleted' documents",
-  "version": "0.1.4",
+  "version": "0.1.5",
+  "homepage": "https://github.com/axiomzen/mongoose-compliant-paranoia",
   "dependencies": {
   },
   "devDependencies":{

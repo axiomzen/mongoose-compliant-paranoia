@@ -7,3 +7,9 @@ services:
 branches:
   only:
     - master
+notifications:
+  email:
+    recipients:
+      - fabiano@axiomzen.co
+    on_success: change
+    on_failure: always
