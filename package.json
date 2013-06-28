@@ -1,0 +1,22 @@
+{
+  "name": "persomm-api",
+  "description": "PerSomm API",
+  "version": "0.0.2",
+  "private": true,
+  "dependencies": {
+    "mongoose": "3.6.x"
+  },
+  "devDependencies":{
+    "chai": "1.5.x",
+    "mocha": "1.11.x",
+    "coffee-script": "1.4.x"
+  },
+  "engines":{
+    "node": "0.10.5",
+    "npm": "1.2.x"
+  },
+  "scripts": {
+    "start": "coffee -w src/app.coffee",
+    "test" : "./node_modules/mocha/bin/mocha --compilers coffee:coffee-script --reporter spec"
+  }
+}
