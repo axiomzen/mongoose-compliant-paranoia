@@ -2,13 +2,15 @@
 
 [![Build Status](https://travis-ci.org/axiomzen/mongoose-compliant-paranoia.png?branch=master)](https://travis-ci.org/axiomzen/mongoose-compliant-paranoia)
 
-A super light and transparent way to prevent rails's active record **deleted_at** field from messing your queries from getting "deleted" documents by being aware of it.
+A super light and transparent way to prevent rails's mongoid **deleted_at** field from messing your queries from getting "deleted" documents by being aware of it.
 
-Meant to work with both mongoid and the active record plugin (#TODO link both)
+Meant to work with both mongoid paranoia [extra](http://mongoid.org/en/mongoid/docs/extras.html#paranoia) and [plugin](https://github.com/simi/mongoid-paranoia)
 
 Tested with mongoose 3.6.12
 
-Inspiration from [https://github.com/Gottox/mongoose-cache]
+*warning*: calling mongoose `.remove()` on a doc will still delete it.
+
+Inspiration from [mongoose-cache](https://github.com/Gottox/mongoose-cache)
 
 ## how to dev
 
