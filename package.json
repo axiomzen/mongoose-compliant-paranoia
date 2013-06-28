@@ -1,22 +1,31 @@
 {
   "name": "mongoose-compliant-paranoia",
   "description": "A plugin to complay with Rails paranoia plugins so we dont query 'deleted' documents",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.4",
   "dependencies": {
-    "mongoose": "3.6.x"
   },
   "devDependencies":{
+    "mongoose": "3.6.x",
     "chai": "1.5.x",
     "mocha": "1.11.x",
     "coffee-script": "1.4.x"
   },
-  "engines":{
-    "node": "0.10.5",
-    "npm": "1.2.x"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodejitsu/http-server.git"
   },
   "scripts": {
-    "start": "coffee -w src/app.coffee",
     "test" : "./node_modules/mocha/bin/mocha --compilers coffee:coffee-script --reporter spec"
-  }
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "author": "flockonus <fabianosoriani@gmail.com>",
+  "keywords": [
+    "mongoose",
+    "http",
+    "server"
+  ],
+  "analyze": true,
+  "license": "MIT"
 }
