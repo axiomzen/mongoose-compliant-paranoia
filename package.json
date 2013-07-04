@@ -1,7 +1,7 @@
 {
   "name": "mongoose-compliant-paranoia",
   "description": "A plugin to complay with Rails paranoia plugins so we dont query 'deleted' documents",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "homepage": "https://github.com/axiomzen/mongoose-compliant-paranoia",
   "dependencies": {
   },
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodejitsu/http-server.git"
+    "url": "https://github.com/axiomzen/mongoose-compliant-paranoia.git"
   },
   "scripts": {
     "test" : "./node_modules/mocha/bin/mocha --compilers coffee:coffee-script --reporter spec"
