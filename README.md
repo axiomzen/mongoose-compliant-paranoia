@@ -23,3 +23,7 @@ coffee -w -b -o lib/ coffee/
 ```
 
 run tests with `npm test`
+
+***
+
+[![Powered by ZenHub.io](https://raw.github.com/axiomzen/zenhub-now/master/powered-by-zenhub-720.png)](https://zenhub.io)
